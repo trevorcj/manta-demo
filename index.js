@@ -14,8 +14,6 @@ const getEmployees = async function () {
       );
     }
 
-    console.log(result);
-
     const { data } = result;
     const li = document.createElement("li");
     data.forEach((employee) => {
